@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+
+  /* position: relative; */
+}
+
+.main-box {
+  max-width: 450px;
+  height: 670px;
+  margin: auto;
+  width: 100%;
+  margin-top: 100px;
+  border: 1px red solid;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.box-1 img {
+  border-radius: 10px 10px 0 0;
+}
+
+.box-2 {
+  text-align: center;
+  padding: 10px;
+  padding-right: 5px;
+}
+
+.box-2 h1 {
+  font-weight: 900;
+}
+
+.box-2 p {
+  font-size: 16px;
+  color: gray;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+}
+
+.box-3 {
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.img img {
+  width: 40px;
+  height: 40px;
+}
+
+.inside-1 {
+  position: absolute;
+  left: 100px;
+}
+
+.inside-1 p {
+  color: gray;
+}
+
+.inside-2 {
+  position: absolute;
+  right: 70px;
+  top: 40px;
+}
+
+.inside-2 a {
+  color: hsl(245, 75%, 52%);
+}
+
+.buttons {
+  margin-top: 120px;
+}
+
+.button1 {
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 15px;
+  color: hsl(224, 23%, 55%);
+  background-color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.button1:hover {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+}
+
+.button2 {
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 15px;
+  margin-top: 30px;
+  color: hsl(224, 23%, 55%);
+  background-color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.button2:hover {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+}
